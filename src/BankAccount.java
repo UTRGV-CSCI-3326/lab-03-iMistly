@@ -7,6 +7,6 @@ public class BankAccount{
         balance -= 1f;
         balance *= 2f;
         balance += 1f;
-        System.out.println("$" + balance); // $1961.9001 grrr floating points
+        System.out.printf("$%.2f", balance);
     }
 }
